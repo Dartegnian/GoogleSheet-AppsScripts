@@ -1,3 +1,7 @@
+/**
+ * @param {range} countRange - The range of cells you have to account for.
+ * @param {cell} colorRef - Cell with a background color that you sample from.
+ */
 function sumColoredCells(countRange, colorRef) {
   var activeRange = SpreadsheetApp.getActiveRange();
   var activeSheet = SpreadsheetApp.getActiveSheet();
